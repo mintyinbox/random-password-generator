@@ -15,7 +15,7 @@ function generatePassword () {
 let length = prompt(`What length of password do you want`)
 let uc = confirm(`Do you want upper case?`)
 let lc = confirm('Do you want lower case?')
-let sc = confirm('Do you want Rammus?')
+let sc = confirm('Do you want special characters?')
 
 let specialChar = '1234567890!@#$%^&*~<>'
 let uChar = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
